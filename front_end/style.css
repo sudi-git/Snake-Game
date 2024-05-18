@@ -1,0 +1,118 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#game-container {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    border: 2px solid #333;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.snake {
+    background-color: #4CAF50;
+}
+
+.apple {
+    background-color: #FF5733;
+}
+
+.obstacle {
+    background-color: #523f3a;
+}
+
+.i-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.info-container {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    /* text-align: center; */
+    width: 100%;
+}
+
+#link a{
+    border: 1 solid rgb(0, 0, 0);
+    background-color: rgb(5, 215, 40);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+#info {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#info p {
+    margin: 10px 0;
+}
+
+#score {
+    font-weight: bold;
+}
+
+#restart-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FF5733;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#restart-btn:hover {
+    background-color: #FF8C66;
+}
+
+#info a {
+    color: #FF5733;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#info a:hover {
+    color: #FF8C66;
+}

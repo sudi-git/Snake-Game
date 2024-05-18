@@ -1,7 +1,7 @@
 # Snake-Game
 Snake game using HTML, CSS and JS
 ---
-# How Start Game
+# How to Start the Game?
 
 - open your terminal and open the folder where implemented game dirctories are present.
 - use cd command to navigate to "back_end" directory of the game : `cd back_end`
